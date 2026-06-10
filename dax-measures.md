@@ -125,27 +125,6 @@ Active Employees Display =
 FORMAT([Active Employees], "#,0")
 ```
 
-### Employees Left Display
-
-```DAX
-Employees Left Display =
-FORMAT([Employees Left], "#,0")
-```
-
-### Attrition Rate Display
-
-```DAX
-Attrition Rate Display =
-FORMAT([Attrition Rate], "0.0%")
-```
-
-### Average Age Display
-
-```DAX
-Average Age Display =
-FORMAT([Average Age], "0.0")
-```
-
 ### Average Monthly Income Display
 
 ```DAX
@@ -158,20 +137,6 @@ FORMAT([Average Monthly Income], "$#,0")
 ```DAX
 Average Years at Company Display =
 FORMAT([Average Years at Company], "0.0")
-```
-
-### Average Job Satisfaction Display
-
-```DAX
-Average Job Satisfaction Display =
-FORMAT([Average Job Satisfaction], "0.0")
-```
-
-### Average Performance Rating Display
-
-```DAX
-Average Performance Rating Display =
-FORMAT([Average Performance Rating], "0.0")
 ```
 
 ---
@@ -272,17 +237,6 @@ SWITCH(
     4, "4 - Very High"
 )
 ```
-
-Creates readable labels for job satisfaction levels.
-
-### Job Satisfaction Sort
-
-```DAX
-Job Satisfaction Sort =
-'HR Data'[Job Satisfaction]
-```
-
-Sorts job satisfaction groups in the correct order.
 
 ### Work Life Balance Group
 
